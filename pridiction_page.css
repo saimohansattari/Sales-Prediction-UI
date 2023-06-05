@@ -1,0 +1,97 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.header{
+	height: 100px;
+	width: auto;
+	margin: auto;
+	padding: 15px 65px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.473);
+}
+
+.header .card-1{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.header .card-1 a{
+	color: black;
+	font-size: 25px;
+	margin: 25px;
+	text-decoration: none;
+}
+
+.header .card-1 a:hover{
+	box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.39);
+}
+
+
+.container{
+  background-color: rgb(143, 181, 250);
+
+}
+
+
+
+.rainbow {
+
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.5, #2ff), color-stop(0.1, #2f2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 30px;
+    
+}
+
+.cont{
+    background-color: rgb(143, 181, 250);
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont .sub_con{
+  margin-top: 80px;
+  background-color: rgb(67, 255, 67);
+  border-radius: 15px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.cont1{
+  background-color: rgb(143, 181, 250);
+  width:100%;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cont1 button{
+  font-size: 15px;
+  color: whitesmoke;
+  background-color:rgb(37, 7, 209) ;
+  width: 150px;
+  height: 50px;
+  border: none;
+}
+  
+
+
